@@ -1,10 +1,25 @@
 html{
     scroll-behavior: smooth;
 }
-nav{
+.navbar{
     box-shadow: 0px 3px 6px rgba(56, 53, 53, 0.3) !important;
 }
-
+li a:hover{
+    background-color: #42c2f5;
+    color: white !important;
+    border-radius: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-shadow: 0px 3px 6px rgba(56, 53, 53, 0.3) !important;
+}
+li a:hover {
+    background-color: #42c2f5;
+    color: white !important;
+    border-radius: 15px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    box-shadow: 0px 3px 6px rgba(56, 53, 53, 0.3) !important;
+}
 .form{
     margin-left: 50px;
 }
@@ -22,6 +37,7 @@ input[type="search"]:focus {
 .card{
     box-shadow: 0px 5px 5px rgba(56, 53, 53, 0.3) !important;
     border-radius: 15px !important;
+    height: 400px !important;
 }
 .card-img-top{border-top-left-radius: 15px !important;
     border-top-right-radius: 15px !important;
@@ -36,6 +52,9 @@ input[type="search"]:focus {
     height: 550px !important;
     width: 100% !important;
 
+}
+.i, .fa{
+    color:  green !important;
 }
 .carousel-inner{
     width:100%;
@@ -61,27 +80,29 @@ input[type="search"]:focus {
     border-radius: 15px;
     box-shadow: inset  0px 5px 5px rgb(56, 53, 53) !important;
  }
- .overlay-right{
-     display: block;
-     opacity: 0;
-     position: absolute;
-     top: 10%;
-     margin-left: 20px;
- }
- .overlay-right .bi{
-     cursor: pointer;
-     color: black;
-     font-size: 10px;
-     width: 20px;
-     height: 20px;
-     opacity: 1;
-
- }
- .card-img-top:hover + .overlay-right{
-     opacity: 1 !important;
-     /* margin-left: 10px; */
-     transition: 0.5 s;
-     display: block;
-
- }
  
+ .btn{
+    width: 100% !important;
+    height: auto !important;
+     color: black;
+     border-radius: 20px;
+     }
+ .btn:hover , .rupess:hover{
+    background-color:#42c2f5 !important;
+    box-shadow: 0px 3px 6px rgba(56, 53, 53, 0.3) !important;
+ }
+   .hovercard:hover + .hoverdiscripton{
+     display: block;     /* transition: ease-in;
+     transform: translateY(-50px);
+     transition-duration: 0.3s; */
+     -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+     
+ 
+ .hoverdiscripton{
+     display: none;
+     position: relative;
+
+ }

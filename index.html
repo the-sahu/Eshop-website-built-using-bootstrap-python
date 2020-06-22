@@ -4,6 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,11 +17,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12">
+          
           <nav class="navbar navbar-expand-lg navbar-light bg-white d-flex justify-content-between fixed-top">
-            <div class="col-lg-2">
+
+            <div class="col-lg-2 col-sm-2 col-md-2">
               <a class="navbar-brand ml-5" href="#"><img src="./img/E-shop.svg" width="100px" alt="E-shoplogo"></a>
             </div>
-              <form class="col-lg-4 position-relative form-inline formc form my-2 my-lg-0">
+              <form class="col-lg-4  col-sm-4 position-relative form-inline form my-2 my-lg-0">
                 <input class="w-100 form-control mr-sm-2 rounded-lg formc" type="search" placeholder="Search here" aria-label="Search">
                 <svg class="position-absolute mr-5 bi bi-search" style="right: 0;" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
@@ -34,16 +38,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link home" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="#"> About</a>
+                  <a class="nav-link about" href="#"> About</a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="#"> Cetegories</a>
+                  <a class="nav-link cetegories" href="#"> Cetegories</a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="#"> Blog</a>
+                  <a class="nav-link blog" href="#"> Blog</a>
                 </li>
               </ul>
              </div>
@@ -64,6 +68,7 @@
              </div>
           </nav>
         </div>
+        </div>
       </div>
   </div><br><br><br><br>
 
@@ -73,12 +78,16 @@
     <div class="container-fluid mt-3">
       <div class="row">
         <div class="col-2 ml-4">
-          <div class="card  text-center px-3 py-3 h-100" style="overflow-y: auto; position: fixed;">
-            <h5 class="mx-4">All cetegories</h5>
+          <div class="card  text-center px-3 py-3 h-100" style="overflow-y: auto; position: fixed;  ">
+            <div>
+            <h5 class="mx-4">All cetegories</h5></div>
             <hr>
             <div>
               <ul>
-                <p class="mr-5">mobile</p>
+                <p class="mr-5">Mobile</p>
+                <p class="mr-5">Laptop</p>
+                <p class="mr-5">Wrist-Watch</p>
+                <p class="mr-5">smart</p>
                 <p class="mr-5">Mobile</p>
                 <p class="mr-5">Mobile</p>
                 <p class="mr-5">Mobile</p>
@@ -87,17 +96,7 @@
                 <p class="mr-5">Mobile</p>
                 <p class="mr-5">Mobile</p>
                 <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
-                <p class="mr-5">Mobile</p>
+              
               </ul>
             </div>
           </div>
@@ -135,67 +134,75 @@
             <div class="col-lg-12">
               <div class="row d-flex justify-content-between">
               <div class="col-3">
-                <div class="card ">
+                <div class="card hovercard">
                   <img class="card-img-top " src="./img/john-torcasio-TJrkkhdB39E-unsplash.jpg" alt="Card image cap">
-                  <div class="overlay-right">
-                    <button type="button" class="btn " title="quick shop">
-                    <svg class="bi bi-eye" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.134 13.134 0 0 0 1.66 2.043C4.12 11.332 5.88 12.5 8 12.5c2.12 0 3.879-1.168 5.168-2.457A13.134 13.134 0 0 0 14.828 8a13.133 13.133 0 0 0-1.66-2.043C11.879 4.668 10.119 3.5 8 3.5c-2.12 0-3.879 1.168-5.168 2.457A13.133 13.133 0 0 0 1.172 8z"/>
-                      <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
-                    </svg></button>
-                    <button type="button" class="btn " title="Add to wishlist">
-                      <svg class="bi bi-heart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
-                      </svg>
-                    </button>
-                    <button type="button" class="btn " title="Add to cart">
-                      <svg class="bi bi-cart-plus" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M8.5 5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 .5-.5z"/>
-                        <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0v-2z"/>
-                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                      </svg>
-                      </button>
-                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Rollex watch</h5>
-                    <p class="card-text font-weight-bold h2"><small class="font-weight-bold">Rs</small> 500</p>
-                    <button type="submit">buy now</button>
+                    <p class="card-text rupees font-weight-bold h3"><small class="font-weight-bold">Rs</small> 1000/-</p> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <div class=" d-flex align-items-center justify-content-between">
+                      <button class="btn rounded-lg mt-4" type="button">Buy Now</button>
+                    </div>
                   </div>
-                </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                <div class="card hovercard">
+                  <img class="card-img-top " src="./img/11.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">iPhone 11</h5>
+                    <p class="card-text rupees font-weight-bold h3"><small class="font-weight-bold">Rs</small> 70000/-</p> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <div class=" d-flex align-items-center justify-content-between">
+                      <button class="btn rounded-lg mt-4" type="button">Buy Now</button>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                <div class="card hovercard">
+                  <img class="card-img-top " src="./img/nick-de-partee-5DLBoEX99Cs-unsplash.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Branded T-shirts</h5>
+                    <p class="card-text rupees font-weight-bold h4"><small class="font-weight-bold"> Starting at Rs</small> 300/-</p> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <div class=" d-flex align-items-center justify-content-between">
+                      <button class="btn rounded-lg mt-4" type="button">Buy Now</button>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-3">
+                <div class="card hovercard">
+                  <img class="card-img-top " src="./img/erick-cerritos-i5UV2HpITYA-unsplash.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Dell Laptop</h5>
+                    <p class="card-text rupees font-weight-bold h3"><small class="font-weight-bold">Rs</small> 3500/-</p> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <div class=" d-flex align-items-center justify-content-between">
+                      <button class="btn rounded-lg mt-4" type="button">Buy Now</button>
+                    </div>
+                  </div>
+                  </div>
               </div>
 
-              <div class="col-3">
-                <div class="card">
-                  <img class="card-img-top" src="./img/watch 1.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-3">
-                <div class="card">
-                  <img class="card-img-top" src="./img/fabian-heimann-4R_WEmhx8og-unsplash.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-3">
-                <div class="card">
-                  <img class="card-img-top" src="./img/artur-luczka-hAZxL4qPYfc-unsplash.jpg" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
+              
           
               </div>
             </div>
@@ -203,7 +210,7 @@
 
           
 
-          <h4 class="my-5 font-weight-bold">Top selling products</h4>
+          <h4 class="my-5 font-weight-bold sticky">Top selling products</h4>
           <div class="row">
             <div class="col-lg-12">
               <div class="row d-flex justify-content-between">
